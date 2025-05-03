@@ -1,0 +1,20 @@
+.container {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+tr, th, td {
+    border: 1px solid black;
+}
+
+thead>tr:first-child {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+.text {
+    text-transform: capitalize;
+}
