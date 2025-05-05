@@ -7,11 +7,9 @@ export default function SearchBox({value, onChange}) {
     onChange(event.target.value)
   }
   return (
-<>
+<div className={css.container}>
       <label id={inputId}>Find contacts by name</label>
-      <input type="text" value={value} onChange={handleChange} name="search" id={inputId} />
-      <p>{value}</p>
-      
-</>
+      <input className={css.searchInput} type="text" value={value} onChange={handleChange} name="search" id={inputId} />
+</div>
 )
 }

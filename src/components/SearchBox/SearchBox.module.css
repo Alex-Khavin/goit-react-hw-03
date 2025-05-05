@@ -1,20 +1,11 @@
 .container {
-    display: table;
-    width: 100%;
-    border-collapse: collapse;
-    
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 20px 0;
+    gap: 5px;
 }
-tr, th, td {
-    border: 1px solid black;
-}
-
-thead>tr:first-child {
-    background-color: rgb(20, 20, 20);
-    color: white;
-}
-tr:nth-child(even) {
-    background-color: lightgray;
-}
-.text {
-    text-transform: capitalize;
+.searchInput {
+  width: 100%;
+  /* background-color: white; */
 }
